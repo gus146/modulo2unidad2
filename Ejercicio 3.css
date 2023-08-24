@@ -1,0 +1,47 @@
+#contenedor{
+    border: 1px solid black;
+    background-color: white;
+    width: 1200px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+#item1{position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: red;
+width: 200px;
+height: 200px;
+margin: 0px;
+font-size: 30px;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+
+#item2{position: absolute;
+    top: 0px;
+    left: 500px;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+
+#item3{position: absolute;
+    top: 0px;
+    left: 1000px;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
